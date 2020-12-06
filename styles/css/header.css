@@ -1,0 +1,109 @@
+/* Estilos Header */
+
+header {
+    width:100%;
+    max-width: 1100px;
+    margin: auto;
+    height: auto;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 2;
+    padding: 5px 15px;
+}
+
+/* Estilos header: Logo */
+
+.logo h1 {
+    font-size: 20px;
+    color: gray;
+    text-align: start;
+}
+
+.logo span {
+    font-size: 10px;
+    color: lightgray;
+}
+
+/* Estilos header: Menu de navegación */
+
+label {
+    font-size: 20px;
+    padding: 10px;
+    background: #ff6d88;
+    border-radius: 100%;
+    color: white;
+}
+
+#menu-desplegable {
+    display: none;
+}
+
+.menu-desplegable {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba( 255, 86, 117, 0.9);
+    transition: all 0.5s;
+}
+
+.menu-desplegable-oculto {
+    transform: translateX(-100%);
+}
+
+.menu-desplegable-visible {
+    transform: translateX(0%);
+}
+
+.menu-desplegable a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ff5675;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-desplegable a:hover {
+    background: white;
+    color: #ff5675;
+}
+
+.icon-search {
+    color:  #ff5675;
+    cursor: pointer;
+}
+
+.menu-navegacion {
+    list-style: none;
+    display: none;
+    max-width: 100%;
+}
+
+.menu-navegacion li {
+    background: white;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.menu-navegacion li a:hover {
+    color: #ff5675;
+}
+
+.menu-navegacion li a.activo {
+    color:white;
+    background: #ff5675;
+    padding: 10px 30px;
+}

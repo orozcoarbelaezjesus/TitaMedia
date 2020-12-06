@@ -1,0 +1,39 @@
+/* Media queries */
+
+@media (min-width:850px) {
+    label, .menu-desplegable, #menu-desplegable {
+        display: none;
+    }
+    header {
+        position: static;
+    }
+    .menu-navegacion {
+        display: inline-flex;
+    }
+    .opcion-vista {
+        margin: 60px 10px 60px;
+    }
+    .seccion-logo-buscador {
+        display: none;
+    }
+    #texto-portada h1 {
+        word-spacing: 16px;
+    }
+
+    #texto-portada p {
+        font-size: 14px;
+    }
+
+    #texto-portada a {
+        font-size: 12px;
+    }
+}
+
+@media (max-height:350px) {
+
+    .menu-desplegable a {
+        height: 10px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}

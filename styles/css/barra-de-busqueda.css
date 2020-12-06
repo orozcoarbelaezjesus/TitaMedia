@@ -1,0 +1,31 @@
+/* Barra de busqueda */
+
+.barra-busqueda-visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.barra-busqueda-invisible {
+    display: none;
+}
+
+#busqueda {
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.buscador {
+    background: #ff5675;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.seccion-logo-buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}

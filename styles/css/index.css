@@ -1,0 +1,24 @@
+/* Archivos CSS importados */
+
+@import url(header.css);
+@import url(portada.css);
+@import url(grid-img.css);
+@import url(barra-de-busqueda.css);
+@import url(footer.css);
+@import url(media-queries.css);
+
+/* Estilos globales */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Questrial;
+}
+
+a {
+    text-decoration: none;
+    color: #686868;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

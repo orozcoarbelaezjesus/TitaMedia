@@ -1,0 +1,121 @@
+/* Estilos sección de imágenes */
+
+.seccion-diseños {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto 40px;
+}
+
+/* Estilos sección de imágenes: opciones de vista */
+
+.vistas {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcion-vista {
+    margin: 60px 10px 10px;
+}
+
+.opcion-vista a {
+    color:  #ff5675;
+}
+
+.seccion-navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+/* CSS Grid Layout */
+
+.vista-iconos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-gap: 5px;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+  .item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 20px;
+}
+  
+  .item a img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+  }
+  
+  .level-1 {
+    grid-row-end: span 1;
+  }
+
+  .level-2 {
+    grid-row-end: span 2;
+  }
+
+.vista-lista {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,300px);
+    width: 80%;
+    margin: auto;
+}
+
+.item a {
+    max-width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vista-lista .level-2 a img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.vista-lista .level-1 a img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#contenedor-diseños {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+
+/* Botón para mostrar más imágenes */
+
+.campo-boton {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-mas-diseños {
+    background: #ff5675;
+    color: white;
+    padding: 10px 35px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border: 1px solid #ff5675;
+}
+
+.boton-mas-diseños:hover {
+    background: white;
+    color: #ff5675;
+}

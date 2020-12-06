@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneak | Creative Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="StyleSheet" href="./styles/fontello.css">
+    <link rel="StyleSheet" href="./styles/css/index.css">
+</head>
+<body onLoad="renderizar(categoria,1)">
+    <header>
+            <a href="#" class="logo">
+                <h1>SNEAK</h1>
+                <span>CREATIVE PORTFOLIO</span>
+            </a>
+                <ul class="menu-navegacion">
+                <li>
+                    <a href="#" class="categoria activo">All</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Branding</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Web</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Photography</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">App</a>
+                </li>
+                <li class="icon-search" id="icon-search-one">
+                </li>
+            </ul>
+            <input type="checkbox" id="menu-desplegable"></input>
+            <label for="menu-desplegable" class="icon-th-list"></label>
+            <nav class="menu-desplegable menu-desplegable-oculto">
+                <a href="#" class="categoria activo">All</a>
+                <a href="#" class="categoria">Branding</a>
+                <a href="#" class="categoria">Web</a>
+                <a href="#" class="categoria">Photography</a>
+                <a href="#" class="categoria">App</a>
+            </nav>
+    </header>
+    <section class="portada">
+        <div id="texto-portada">
+            <h1 class="titulo-portada">Explore Beyond Horizon</h1>
+            <p>Magna mundi referrentur quo, no rebum dignissim qui.<br>Per quodsi accussata id, agam labores.</p>
+            <a href="#" id="ver-trabajos">View our work</a>
+        </div>
+    </section>
+    <section id="seccion-imágenes">
+        <div>
+            <div class="vistas">
+                <div class="opcion-vista">
+                    <a href="#" class="icon-th-thumb" id="opcion-iconos"></a>
+                </div>
+                <div class="opcion-vista">
+                    <a href="#" class="icon-th-list" id="opcion-lista"></a>
+                </div>
+            </div>
+        </div>
+        <div class="seccion-navegacion">
+            <ul class="menu-navegacion">
+                <li>
+                    <a href="#" class="categoria activo">All</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Branding</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Web</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">Photography</a>
+                </li>
+                <li>
+                    <a href="#" class="categoria">App</a>
+                </li>
+                <li class="icon-search" id="icon-search-two">
+                </li>
+            </ul>
+        </div>
+        <div class="icon-search seccion-logo-buscador" id="icon-search-three">
+        </div>
+        <div class="barra-busqueda-invisible" id="barra-busqueda">
+            <input type="text" id="busqueda" placeholder="Search image"></input>
+            <button class="buscador" id="buscador">Buscar</button>
+        </div>
+        <div class="seccion-diseños">
+            <div id="contenedor-diseños" class="vista-iconos">
+
+            </div>
+            <div class="campo-boton">
+                <a href="#" class="boton-mas-diseños" id="mostrarMas">Show Me More</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <div class="elemento-footer">
+                <p>2016 - <span class="color">Sneak</span> All Right Reserved</p>
+            </div>
+            <div class="elemento-footer">
+                <ul class="social">
+                    <li>
+                        <a href="https://es-la.facebook.com/" class="icon-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=es" class="icon-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://dribbble.com/" target="blank" class="icon-dribbble"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-gplus"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-youtube"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
